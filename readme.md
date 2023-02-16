@@ -4,7 +4,7 @@ An embedded system that uses an ESP32 microcontroller to accurately track the po
 
 ## Explanation
 
-the all project is explained in my portfolio website [here](https://https://dwayneherzberg.com/solar-tracker)
+the all project is explained in my portfolio website [here](https://dwayneherzberg.com/solar-tracker)
 
 ## Warning
 
