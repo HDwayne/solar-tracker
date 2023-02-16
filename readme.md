@@ -1,3 +1,5 @@
+![Solar Tracker image](/img/solar_tracker_main.webp "Solar Tracker")
+
 # Solar tracker with ESP32 and soltrack-2.2 library
 
 An embedded system that uses an ESP32 microcontroller to accurately track the position of the sun and adjust the angle of a solar panel accordingly. By constantly monitoring the sun's movement throughout the day, the Solar Tracker ensures that the solar panel is always in the optimal position for maximum energy production. The system uses precise calculations to determine the sun's position and employs relays to adjust panel angles for optimal performance.
