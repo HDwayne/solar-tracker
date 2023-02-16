@@ -1,0 +1,10 @@
+  
+  SolTrack is a free, fast and accurate C routine to compute the position of the Sun
+  http://soltrack.sourceforge.net/
+  Copyright (c) 2014-2017  Marc van der Sluys, Paul van Kan and Jurgen Reintjes,
+                           HAN university of applied sciences, Arnhem, the Netherlands
+  
+  Release version:        2.2
+  Code revision:          rev.13, hash 9f77eee (2017-09-09)
+  Release date:           2017-09-09
+  

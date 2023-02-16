@@ -1,0 +1,55 @@
+
+  CHANGELOG for SolTrack releases
+  http://soltrack.sourceforge.net/
+
+
+  2.2  2017-09-09  (code rev.13, hash 9f77eee)
+	* BUGFIX in SolTrack_RiseSet:
+		* final results were converted, then overwritten by local results
+
+	* Changes:
+		* SolTrack: convert intermediate results to degrees if desired (longitude, right ascension, etc.)
+		* examples: use useDegrees = 1 in TestSolTrackSingle
+		* examples: allow local compilation in Makefile
+
+
+  2.1  2017-04-17  (code rev.11, hash bc23eb8)
+	* Add rise, transit and set times
+		* function SolTrack_RiseSet in SolTrack_RiseSet.c
+		* computes rise, transit and set times to better than a second
+		* computes rise and set azimuths and transit altitude to 0.001 degree or better
+
+	* Changes:
+		* the struct location is no longer passed as a pointer
+			* it shouldn't be updated
+
+	* Add CMake files for automatic compilation (and a simple Makefile for manual compulation)
+		* compile and install libraries, header files, man pages and examples
+
+
+  2.0  2017-02-22  (code rev.6, hash d7838c3)
+	* Changed licence from GNU GPL to LGPL for easier use in commercial applications
+
+	* Tuned the code for better speed and accuracy performance:
+		* precompute and distribute multiply used variables
+		* use own atan2() function (STatan2()) for better speed
+		* leave out higher-order terms if it results in a speed gain and negligible accuracy loss
+		* optimise constants for best accuracy in the next 100 years
+			* code has become faster and more accurate
+	* New options:
+		* allow use of degrees for input/output angular variables, rather than radians
+		* allow definition azimuth=0 for north rather than south
+		* allow computation of the distance to the Sun
+
+
+  1.1  2015-04-11  (code rev.4, hash 7281ce6)
+	* Added a second test:
+		* TestSolTrackFile.c tests using the 100 dates as before
+		* TestSolTrackSingle.c: uses a single hard-coded date to compute the position for
+
+
+  1.0  2014-11-10  (code rev.1, git hash 1163ff1)
+	* First stable version of SolTrack
+		* see http://soltrack.sf.net for details
+
+
