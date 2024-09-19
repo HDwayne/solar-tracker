@@ -1,3 +1,7 @@
+⚠️ **This repository is deprecated.** Please check out [the new version](https://github.com/HDwayne/SolarArduino).
+
+---
+
 ![Solar Tracker image](/img/solar_tracker_main.webp "Solar Tracker")
 
 # Solar tracker with ESP32 and soltrack-2.2 library
